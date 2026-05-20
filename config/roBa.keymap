@@ -96,7 +96,7 @@
 &lt 1 Q           &kp W         &kp E         &kp R                        &kp T                                                                                      &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MB3                                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                                     &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 mkp MB1     &lt 2 mkp MB2  &lt_to_layer_0 3 SPACE                    &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
+&lt_to_layer_0 6 MKP_L  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 MKP_L     &lt 2 MKP_R  &lt_to_layer_0 3 SPACE                    &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp MOVE_Y(-10) MOVE_Y(10)>;
