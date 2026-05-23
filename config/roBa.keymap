@@ -58,6 +58,16 @@
             bindings = <&kp AT>;
             key-positions = <19 20>;
         };
+
+        bluetooth {
+            bindings = <&lt 6 B>;
+            key-positions = <26 27>;
+        };
+
+        tenten {
+            bindings = <&kp COLON>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
@@ -86,12 +96,12 @@
         default_layer {
             bindings = <
 &lt 1 Q           &kp W         &kp E         &kp R      &kp T                                    &kp Y          &kp U  &lt 5 I    &kp O    &lt 1 P
-&kp A             &kp S         &kp D         &kp F      &kp G      &mkp MB3       &kp MINUS      &kp H          &kp J  &kp K      &kp L    &kp RET
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B      &kp COLON      &kp LS(LG(S))  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &kp SPACE      &kp GRAVE      &kp BACKSPACE                             &kp DEL
+&kp A             &kp S         &kp D         &kp F      &kp G      &mkp MB3           &kp MINUS  &kp H          &kp J  &kp K      &kp L    &kp RET
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B      &kp LS(LG(S))      &kp B      &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &kp SPACE          &kp GRAVE  &kp BACKSPACE                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
