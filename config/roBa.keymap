@@ -43,6 +43,21 @@
             bindings = <&kp MINUS>;
             key-positions = <7 8>;
         };
+
+        kagikakko {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <20 21>;
+        };
+
+        migikagikakko {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
@@ -70,10 +85,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                        &kp Y          &kp U  &lt 5 I    &kp O    &lt 1 P
-&kp A             &kp S         &kp D         &kp F      &kp G      &kp LS(LG(S))      &kp MINUS      &kp H          &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B      &kp COLON          &kp SEMICOLON  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &kp SPACE          &kp GRAVE      &kp BACKSPACE                             &kp DEL
+&lt 1 Q           &kp W         &kp E         &kp R      &kp T                                    &kp Y          &kp U  &lt 5 I    &kp O    &lt 1 P
+&kp A             &kp S         &kp D         &kp F      &kp G      &mkp MB3       &kp MINUS      &kp H          &kp J  &kp K      &kp L    &kp RET
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B      &kp COLON      &kp LS(LG(S))  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &kp SPACE      &kp GRAVE      &kp BACKSPACE                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -81,10 +96,10 @@
 
         FUNCTION {
             bindings = <
-&trans    &kp UP    &trans     &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans    &trans    &trans     &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans    &trans    &trans     &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans    &kp UP    &trans     &trans  &trans                       &kp N7        &kp N8        &kp N9        &kp F4  &kp F5
+&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans      &kp F13  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F9  &kp F10
+&trans    &trans    &trans     &trans  &trans  &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp F11
+&trans    &trans    &trans     &trans  &trans  &trans      &trans   &kp N0                                            &kp F12
             >;
         };
 
