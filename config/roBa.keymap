@@ -39,11 +39,6 @@
             key-positions = <0 1>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <7 8>;
-        };
-
         kagikakko {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <20 21>;
@@ -67,6 +62,11 @@
         tenten {
             bindings = <&kp COLON>;
             key-positions = <31 32>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
         };
     };
 
@@ -106,10 +106,10 @@
 
         FUNCTION {
             bindings = <
-&trans    &kp UP    &trans     &trans  &trans                       &kp N7        &kp N8        &kp N9        &kp F4  &kp F5
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans      &kp F13  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F9  &kp F10
-&trans    &trans    &trans     &trans  &trans  &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp F11
-&trans    &trans    &trans     &trans  &trans  &trans      &trans   &kp N0                                            &kp F12
+&trans    &kp UP_ARROW  &trans     &trans  &trans                       &kp N7        &kp N8        &kp N9        &kp F4  &kp F5
+&kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans  &trans      &kp F13  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F9  &kp F10
+&trans    &trans        &trans     &trans  &trans  &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp F11
+&trans    &trans        &trans     &trans  &trans  &trans      &trans   &kp N0                                            &kp F12
             >;
         };
 
