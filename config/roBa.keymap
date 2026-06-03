@@ -98,6 +98,11 @@
             bindings = <&mkp MCLK>;
             key-positions = <7 9>;
         };
+
+        middletwo {
+            bindings = <&mkp MCLK>;
+            key-positions = <3 13>;
+        };
     };
 
     macros {
