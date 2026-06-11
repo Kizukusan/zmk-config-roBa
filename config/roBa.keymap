@@ -64,11 +64,6 @@
             key-positions = <31 32>;
         };
 
-        rightclick {
-            bindings = <&mkp RCLK>;
-            key-positions = <8 9>;
-        };
-
         mouseup {
             bindings = <&msc SCRL_UP>;
             key-positions = <4 3>;
@@ -89,14 +84,9 @@
             key-positions = <13 12>;
         };
 
-        leftclick {
-            bindings = <&mkp LCLK>;
-            key-positions = <8 7>;
-        };
-
         middleclick {
             bindings = <&mkp MCLK>;
-            key-positions = <7 9>;
+            key-positions = <8 20>;
         };
 
         middletwo {
@@ -170,10 +160,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &mkp LCLK  &msc SCRL_UP    &mkp RCLK
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans     &msc SCRL_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans     &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
 
